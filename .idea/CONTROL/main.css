@@ -106,7 +106,7 @@ align-items: center;
     font-weight: 700;
     text-transform: capitalize;
 }
-/*------------------section(title)---------------*/
+/*------------------main(title)---------------*/
 .title{
 height: 814px;
     background: #EFF0F3;
@@ -174,7 +174,7 @@ input[type="email"]::placeholder{
     font-family: "Plus Jakarta Sans",sans-serif;
     font-size: 20px;
     font-weight: 400;
-    padding: 21px 0 21px 25px;
+    padding: 24px 0 21px 25px;
 
 }
 .Sub-second{
@@ -191,4 +191,7 @@ input[type="email"]::placeholder{
     font-size: 20px;
     font-weight: 700;
     text-transform: capitalize;
+}
+.photo-rectagle-12{
+    margin-top: 185px;
 }
