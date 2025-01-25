@@ -195,3 +195,90 @@ input[type="email"]::placeholder{
 .photo-rectagle-12{
     margin-top: 185px;
 }
+/*-------------aside-1---------------*/
+.category{
+    background-color: #EFF0F3;
+}
+.third-container____w1250{
+    width: 1250px;
+    margin: 0 auto;
+    display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+    gap: 50px;
+    padding-bottom: 62px;
+}
+.the-category{
+    width: 100%;
+    display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.start{
+    color: #2B2C34;
+    font-family: "Plus Jakarta Sans",sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.all-category{
+    color: var(--Black, #2B2C34);
+    text-align: right;
+    font-family: "Plus Jakarta Sans",sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.cards-1{
+    display: flex;
+justify-content: center;
+align-items: center;
+gap: 37px;
+width: 100%;
+}
+.card{
+    width: 220px;
+    height: 280px;
+    border-radius: 8px;
+    background: #FFFFFE;
+    display: flex;
+justify-content: center;
+align-items: flex-start;
+    flex-direction: column;
+    gap: 30px;
+    padding-left: 30px;
+    transition: 0.8s;
+}
+.text-in-card{
+    color: #2B2C34;
+    font-family: "Plus Jakarta Sans",sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: capitalize;
+    transition: 0.8s;
+}
+.text-in-card:hover{
+    color: white;
+    transition: 1.2s;
+}
+.hei{
+    height: 1000px;
+}
+.for-con-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7.458px;
+    background: #FFFFFE;
+width: 60px;
+height: 60px;
+background-color: white;
+}
+.card:hover{
+
+    background:  #6246EA;
+    transition: 1.2s;
+}
