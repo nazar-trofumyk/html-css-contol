@@ -174,8 +174,14 @@ input[type="email"]::placeholder{
     font-family: "Plus Jakarta Sans",sans-serif;
     font-size: 20px;
     font-weight: 400;
-    padding: 24px 0 21px 25px;
-
+padding: 21px 0 21px 25px;
+}
+input[type="email"]:focus{
+    color: black;
+    font-family: "Plus Jakarta Sans",sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    padding-left: 10px;
 }
 .Sub-second{
     display: flex;
