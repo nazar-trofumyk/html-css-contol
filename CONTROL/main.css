@@ -283,7 +283,7 @@ align-items: flex-start;
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 7.458px;
+    border-radius: 7px;
     background: #FFFFFE;
 width: 60px;
 height: 60px;
@@ -401,7 +401,7 @@ align-items: center;
 justify-content: center;
 align-items: flex-start;
 flex-direction: column;
-    gap: 4.2px;
+    gap: 4px;
 }
 h4{
     width: 73px;
@@ -422,7 +422,7 @@ h4{
 }
 .btn-in-section{
    margin: 80px 0 80px 0;
-    border-radius: 8px;
+    border-radius : 8px;
     background:#6246EA;
     color: #FFFFFE;
     font-family: "Plus Jakarta Sans",sans-serif;
@@ -505,7 +505,9 @@ gap: 20px;
     align-items: center;
     gap: 10px;
 }
-
+label{
+    display: none;
+}
 
 
 footer{
