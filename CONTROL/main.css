@@ -460,7 +460,7 @@ border-radius: 50%;
 
 }
 .Subscribe{
-  height: 453px;
+  height: 511px;
     background:  #EFF0F3;
 }
 .text-with-input{
@@ -516,14 +516,15 @@ label{
 /*-----------footer------------------*/
 footer{
     background: #E4E5E9;
-    height: 435px;
+  height: 435px;
+
 }
 .container-for-foot-w1250{
     margin: 0 auto;
     width: 1250px;
 height: 100%;
     align-items: center;
-
+position: relative;
     display: flex;
 justify-content: space-between;
 
@@ -594,5 +595,22 @@ gap: 20px;
     color:  #2B2C34;
     font-family: "Plus Jakarta Sans",sans-serif;
     font-size: 18px;
+    font-weight: 400;
+}
+.line-in-footer{
+    width: 1250px;
+height: 1px;
+    background: #C0C0C0;
+position: absolute;
+    bottom: 70px;
+
+}
+.Digitaldastin{
+    position: absolute;
+    bottom: 26px;
+left: 0;
+    color:  #2B2C34;
+    font-family: "Plus Jakarta Sans",sans-serif;
+    font-size: 14px;
     font-weight: 400;
 }
