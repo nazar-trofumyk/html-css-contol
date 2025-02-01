@@ -274,7 +274,7 @@ align-items: flex-start;
 }
 .card:hover .text-in-card{
     color: white;
-    transition: 1.2s;
+    transition: 0.8s;
 }
 .hei{
     height: 1000px;
@@ -613,4 +613,7 @@ left: 0;
     font-family: "Plus Jakarta Sans",sans-serif;
     font-size: 14px;
     font-weight: 400;
+}
+input:focus{
+    outline: none;
 }
